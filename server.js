@@ -8,7 +8,7 @@ app.get('/', function (request, response){
 app.get('/nickname', function(request, response) {
     response.status(200)
             .type('text/plain')
-            .send("beautiful coyote");
+            .send("beautiful-coyote");
 });
 
 app.listen(process.env.PORT || 4000);
